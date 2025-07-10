@@ -134,17 +134,17 @@
     }
   ],
   "televote": {
-    "ATKA": 63,
-    "Antwerpen": 58,
-    "Arnhem": 47,
-    "Brussel": 65,
+    "ATKA": 93,
+    "Antwerpen": 127,
+    "Arnhem": 374,
+    "Brussel": 273,
     "Den Bosch": 44,
-    "Filmacademie": 88,
-    "Gent": 77,
-    "Leuven": 54,
-    "Maastricht": 79,
+    "Filmacademie": 202,
+    "Gent": 0,
+    "Leuven": 2,
+    "Maastricht": 43,
     "Rotterdam": 67,
     "Tilburg": 61,
-    "Utrecht": 119
+    "Utrecht": 342
   }
 }
