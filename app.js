@@ -1,8 +1,7 @@
 // === CONSTANTEN EN BASISVARIABELEN ===
 const ALL_SCHOOLS = [
   "Antwerpen", "Arnhem", "ATKA", "Brussel", "Den Bosch",
-  "Filmacademie", "Gent", "Leuven", "Maastricht",
-  "Rotterdam", "Tilburg", "Utrecht"
+  "Filmacademie", "Gent", "Leuven", "Maastricht", "Rotterdam", "Tilburg", "Utrecht"
 ];
 
 let currentSlideIndex = 0;
@@ -62,7 +61,7 @@ function setupSlidesFromData(juryData) {
     });
 
     slides.push(createJuryIntroSlide(jurySchool));
-    slides.push(createPuntenAnimatieSlide(idx + 1, juryData.length, jurySchool));
+    slides.push(createPuntenAnimatieSlide(idx + 1, juryData.length, jurySchool, punten)); // <-- punten toegevoegd
     slides.push(createPuntenSlide(punten, idx));
 
     slides.push(createScoreboardVoor12Slide(oudeTotaal, punten));
@@ -158,7 +157,7 @@ function createJuryIntroSlide(jurySchool) {
 }
 
 // --- PUNTEN ANIMATIE SLIDE (verticale blokken voor animatie) ---
-function createPuntenAnimatieSlide(juryNr, juryTotaal, juryNaam) {
+function createPuntenAnimatieSlide(juryNr, juryTotaal, juryNaam, punten) {
   const slide = document.createElement("div");
   slide.className = "slide punten-anim-slide";
   const container = document.createElement("div");
@@ -167,25 +166,34 @@ function createPuntenAnimatieSlide(juryNr, juryTotaal, juryNaam) {
   kolomLinks.className = "punten-kolom";
   const kolomRechts = document.createElement("div");
   kolomRechts.className = "punten-kolom";
+
+  const leftPoints = [12, 10, 8, 7, 6];
+  const rightPoints = [5, 4, 3, 2, 1];
+
+  // Verzamel alle unieke puntenwaardes die deze jury uitdeelt, sorteer aflopend (zonder 0)
+  const puntenWaardes = Object.values(punten)
+    .filter(p => p > 0)
+    .sort((a, b) => b - a);
+
   let leftBlocks = [];
   let rightBlocks = [];
-  [12, 10, 8, 7, 6].forEach((pt) => {
+  puntenWaardes.forEach((pt) => {
     const blok = document.createElement("div");
     blok.className = "punten-blok twaalf-only punten-blok-anim";
     blok.innerHTML = `<span class="punten${pt === 12 ? " twaalf" : ""}">${pt}</span>`;
-    leftBlocks.push(blok);
+    if (leftPoints.includes(pt)) {
+      leftBlocks.push(blok);
+    } else if (rightPoints.includes(pt)) {
+      rightBlocks.push(blok);
+    }
   });
-  [5, 4, 3, 2, 1].forEach((pt) => {
-    const blok = document.createElement("div");
-    blok.className = "punten-blok twaalf-only punten-blok-anim";
-    blok.innerHTML = `<span class="punten">${pt}</span>`;
-    rightBlocks.push(blok);
-  });
+
   leftBlocks.forEach(b => kolomLinks.appendChild(b));
   rightBlocks.forEach(b => kolomRechts.appendChild(b));
   container.appendChild(kolomLinks);
   container.appendChild(kolomRechts);
   slide.appendChild(container);
+
   const juryInfo = document.createElement("div");
   juryInfo.className = "puntenanimatie-juryinfo";
   const juryBlok1 = document.createElement("div");
@@ -197,6 +205,8 @@ function createPuntenAnimatieSlide(juryNr, juryTotaal, juryNaam) {
   juryInfo.appendChild(juryBlok1);
   juryInfo.appendChild(juryBlok2);
   slide.appendChild(juryInfo);
+
+  // Animatieblokken in zelfde volgorde als visueel (rechts eerst, dan links), net als voorheen
   slide._animBlokken = [...rightBlocks.reverse(), ...leftBlocks.reverse()];
   return slide;
 }
