@@ -594,12 +594,14 @@ body:fullscreen {
   background: #53e3ec !important;
 }
 .schoolblok.televote-received .schoolnaam {
-  color: #a03ccf !important;
-  background: #53e3ec !important;
+  background: #00bcd4 !important;
+  color: #6a1b9a !important;
+  font-weight: bold !important;
 }
 .schoolblok.televote-received .puntennieuw {
-  background: #53e3ec !important;
-  color: #a03ccf !important;
+ background: #00bcd4 !important;
+  color: #6a1b9a !important;
+  font-weight: bold !important;
   border: none !important;
 }
 .schoolblok.televote-received .puntentotaal {
