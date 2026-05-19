@@ -9,15 +9,15 @@
       },
       "punten": {
         "Arnhem": 12,
-        "ATKA": 6,
-        "Brussel": 4,
-        "Den Bosch": 5,
-        "Filmacademie": 3,
+        "ATKA": 5,
+        "Brussel": 3,
+        "Den Bosch": 4,
+        "Filmacademie": 1,
         "Gent": 2,
-        "Leuven": 1,
-        "Maastricht": 10,
-        "Rotterdam": 8,
-        "Tilburg": 7,
+        "Leuven": 6,
+        "Maastricht": 8,
+        "Rotterdam": 7,
+        "Tilburg": 10,
         "Utrecht": 0,
         "Antwerpen": 0
       }
@@ -30,17 +30,17 @@
         "foto": "presentators/arnhem.jpg"
       },
       "punten": {
-        "Antwerpen": 5,
-        "ATKA": 7,
-        "Brussel": 3,
-        "Den Bosch": 4,
-        "Filmacademie": 2,
-        "Gent": 1,
-        "Leuven": 6,
-        "Maastricht": 12,
-        "Rotterdam": 8,
-        "Tilburg": 10,
-        "Utrecht": 0,
+        "Antwerpen": 3,
+        "ATKA": 4,
+        "Brussel": 2,
+        "Den Bosch": 5,
+        "Filmacademie": 1,
+        "Gent": 6,
+        "Leuven": 7,
+        "Maastricht": 8,
+        "Rotterdam": 10,
+        "Tilburg": 0,
+        "Utrecht": 12,
         "Arnhem": 0
       }
     },
@@ -52,17 +52,17 @@
         "foto": "presentators/atka.jpg"
       },
       "punten": {
-        "Antwerpen": 4,
+        "Antwerpen": 2,
         "Arnhem": 10,
-        "Brussel": 2,
+        "Brussel": 3,
         "Den Bosch": 5,
-        "Filmacademie": 3,
-        "Gent": 1,
+        "Filmacademie": 1,
+        "Gent": 4,
         "Leuven": 6,
-        "Maastricht": 12,
-        "Rotterdam": 8,
-        "Tilburg": 7,
-        "Utrecht": 0,
+        "Maastricht": 8,
+        "Rotterdam": 7,
+        "Tilburg": 0,
+        "Utrecht": 12,
         "ATKA": 0
       }
     },
@@ -74,16 +74,16 @@
         "foto": "presentators/brussel.jpg"
       },
       "punten": {
-        "Antwerpen": 3,
-        "Arnhem": 12,
+        "Antwerpen": 2,
+        "Arnhem": 8,
         "ATKA": 4,
         "Den Bosch": 5,
-        "Filmacademie": 2,
-        "Gent": 1,
+        "Filmacademie": 1,
+        "Gent": 3,
         "Leuven": 6,
-        "Maastricht": 10,
-        "Rotterdam": 8,
-        "Tilburg": 7,
+        "Maastricht": 7,
+        "Rotterdam": 10,
+        "Tilburg": 12,
         "Utrecht": 0,
         "Brussel": 0
       }
@@ -96,17 +96,17 @@
         "foto": "presentators/denbosch.jpg"
       },
       "punten": {
-        "Antwerpen": 2,
+        "Antwerpen": 3,
         "Arnhem": 10,
         "ATKA": 4,
-        "Brussel": 3,
+        "Brussel": 2,
         "Filmacademie": 1,
         "Gent": 5,
         "Leuven": 6,
-        "Maastricht": 12,
+        "Maastricht": 7,
         "Rotterdam": 8,
-        "Tilburg": 7,
-        "Utrecht": 0,
+        "Tilburg": 0,
+        "Utrecht": 12,
         "Den Bosch": 0
       }
     },
@@ -118,16 +118,16 @@
         "foto": "presentators/filmacademie.jpg"
       },
       "punten": {
-        "Antwerpen": 3,
+        "Antwerpen": 2,
         "Arnhem": 12,
         "ATKA": 5,
-        "Brussel": 2,
+        "Brussel": 3,
         "Den Bosch": 4,
         "Gent": 1,
         "Leuven": 6,
-        "Maastricht": 10,
+        "Maastricht": 7,
         "Rotterdam": 8,
-        "Tilburg": 7,
+        "Tilburg": 10,
         "Utrecht": 0,
         "Filmacademie": 0
       }
@@ -141,16 +141,16 @@
       },
       "punten": {
         "Antwerpen": 2,
-        "Arnhem": 10,
-        "ATKA": 5,
+        "Arnhem": 7,
+        "ATKA": 4,
         "Brussel": 3,
-        "Den Bosch": 4,
+        "Den Bosch": 5,
         "Filmacademie": 1,
         "Leuven": 6,
-        "Maastricht": 12,
-        "Rotterdam": 8,
-        "Tilburg": 7,
-        "Utrecht": 0,
+        "Maastricht": 8,
+        "Rotterdam": 10,
+        "Tilburg": 0,
+        "Utrecht": 12,
         "Gent": 0
       }
     },
@@ -163,15 +163,15 @@
       },
       "punten": {
         "Antwerpen": 3,
-        "Arnhem": 12,
+        "Arnhem": 8,
         "ATKA": 4,
         "Brussel": 2,
         "Den Bosch": 5,
         "Filmacademie": 1,
         "Gent": 6,
-        "Maastricht": 10,
-        "Rotterdam": 8,
-        "Tilburg": 7,
+        "Maastricht": 7,
+        "Rotterdam": 10,
+        "Tilburg": 12,
         "Utrecht": 0,
         "Leuven": 0
       }
@@ -184,11 +184,11 @@
         "foto": "presentators/maastricht.jpg"
       },
       "punten": {
-        "Antwerpen": 3,
+        "Antwerpen": 2,
         "Arnhem": 12,
-        "ATKA": 5,
-        "Brussel": 2,
-        "Den Bosch": 4,
+        "ATKA": 4,
+        "Brussel": 3,
+        "Den Bosch": 5,
         "Filmacademie": 1,
         "Gent": 6,
         "Leuven": 7,
@@ -207,16 +207,16 @@
       },
       "punten": {
         "Antwerpen": 2,
-        "Arnhem": 12,
-        "ATKA": 4,
+        "Arnhem": 8,
+        "ATKA": 5,
         "Brussel": 3,
-        "Den Bosch": 5,
+        "Den Bosch": 4,
         "Filmacademie": 1,
         "Gent": 6,
         "Leuven": 7,
         "Maastricht": 10,
-        "Tilburg": 8,
-        "Utrecht": 0,
+        "Tilburg": 0,
+        "Utrecht": 12,
         "Rotterdam": 0
       }
     },
@@ -228,16 +228,16 @@
         "foto": "presentators/tilburg.jpg"
       },
       "punten": {
-        "Antwerpen": 1,
+        "Antwerpen": 3,
         "Arnhem": 10,
         "ATKA": 4,
-        "Brussel": 3,
+        "Brussel": 2,
         "Den Bosch": 5,
-        "Filmacademie": 2,
+        "Filmacademie": 1,
         "Gent": 6,
         "Leuven": 7,
-        "Maastricht": 12,
-        "Rotterdam": 8,
+        "Maastricht": 8,
+        "Rotterdam": 12,
         "Utrecht": 0,
         "Tilburg": 0
       }
@@ -250,33 +250,33 @@
         "foto": "presentators/utrecht.jpg"
       },
       "punten": {
-        "Antwerpen": 3,
-        "Arnhem": 12,
-        "ATKA": 5,
-        "Brussel": 4,
-        "Den Bosch": 6,
+        "Antwerpen": 2,
+        "Arnhem": 8,
+        "ATKA": 4,
+        "Brussel": 3,
+        "Den Bosch": 5,
         "Filmacademie": 1,
-        "Gent": 2,
+        "Gent": 6,
         "Leuven": 7,
         "Maastricht": 10,
-        "Rotterdam": 8,
+        "Rotterdam": 12,
         "Tilburg": 0,
         "Utrecht": 0
       }
     }
   ],
   "televote": {
-    "Antwerpen": 36,
-    "Arnhem": 172,
-    "ATKA": 52,
-    "Brussel": 41,
-    "Den Bosch": 86,
-    "Filmacademie": 47,
+    "Antwerpen": 27,
+    "Arnhem": 102,
+    "ATKA": 49,
+    "Brussel": 35,
+    "Den Bosch": 64,
+    "Filmacademie": 41,
     "Gent": 39,
-    "Leuven": 33,
-    "Maastricht": 168,
-    "Rotterdam": 12,
-    "Tilburg": 6,
-    "Utrecht": 4
+    "Leuven": 37,
+    "Maastricht": 91,
+    "Rotterdam": 69,
+    "Tilburg": 33,
+    "Utrecht": 109
   }
 }
